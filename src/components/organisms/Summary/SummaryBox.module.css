@@ -1,0 +1,16 @@
+.summary_box {
+  height: 4rem;
+  width: 16rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  outline: 1px solid blue;
+}
+.summary_box input {
+  height: 3.7rem;
+  width: 15.6rem;
+  outline: 1px solid blue;
+  font-size: 0.9rem;
+}
+.cross {
+  cursor: pointer;
+}

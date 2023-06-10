@@ -1,0 +1,303 @@
+div.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+div.wrapper .main_container {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.3rem;
+  background-color: white;
+}
+
+div.wrapper .main_container .input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+div.wrapper .main_container .input input {
+  font-size: large;
+  color: rgb(68, 71, 70);
+  outline: none;
+  border: none;
+}
+
+div.wrapper .main_container .input input:hover {
+  outline: gray;
+  border: 1px solid green;
+}
+
+div.wrapper .main_container .file_names {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+div.wrapper .main_container .file_names span:hover {
+  background-color: rgb(232, 235, 238);
+}
+
+div.wrapper .right_side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+div.wrapper .right_side .btn {
+  display: flex;
+  align-items: center;
+  background-color: rgb(178, 215, 239);
+  padding: 0.5rem 1.5rem;
+  height: 1.5rem;
+  gap: 0.5rem;
+  border-radius: 2rem;
+}
+
+div.wrapper .right_side .lock_icon {
+  font-size: 1.3rem;
+}
+
+div.second_nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-left: 1rem;
+  width: 96vw;
+  margin: auto;
+  background-color: rgb(237, 242, 250);
+  border-radius: 2rem;
+  margin-left: 1rem;
+  position: sticky;
+  top: 5rem;
+  z-index: 1;
+}
+
+div.second_nav .normal_text {
+  width: 7rem;
+  height: 1rem;
+}
+
+div.second_nav .arial {
+  width: 4rem;
+}
+
+div.second_nav .editing {
+  margin-left: 2rem;
+}
+
+body {
+  overflow: hidden;
+}
+
+.undo_icon,
+.redo_icon,
+.printer_icon,
+.bold,
+.italic,
+.underline {
+  font-size: 1.3rem;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+}
+.bold,
+.italic,
+.underline {
+  margin-left: -1rem;
+}
+.undo_icon:hover {
+  background-color: #dfe5eb;
+}
+.redo_icon:hover {
+  background-color: #dfe5eb;
+}
+.printer_icon:hover {
+  background-color: #dfe5eb;
+}
+.bold:hover {
+  background-color: #dfe5eb;
+}
+.italic:hover {
+  background-color: #dfe5eb;
+}
+.underline:hover {
+  background-color: #dfe5eb;
+}
+.text_align {
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+.text_align:hover {
+  background-color: #8cc2f0;
+}
+.middle_section {
+  margin: auto;
+  overflow-y: auto;
+  width: 38rem;
+  margin-left: 0rem;
+}
+
+.wrapper_main {
+  display: flex;
+  width: 95.5vw;
+  border: 1px solid rgb(199, 199, 199);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  height: 98vh;
+  position: relative;
+}
+.left_section {
+  width: 18rem;
+  height: 100vh;
+  margin-right: 2rem;
+}
+
+.left_icon {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.summary p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.align {
+  border: none;
+  height: 1.8rem;
+  width: 7rem;
+  background-color: #dfe5eb;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  position: absolute;
+  margin-top: 3.5rem;
+}
+.align_icons {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+}
+.align_icons:hover {
+  background-color: #dfe5eb;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  margin-left: 2rem;
+  border-bottom: 2px solid #c7c7c7;
+  color: #595a5a;
+}
+
+.middle_section {
+  padding: 6rem 6rem 0 5rem;
+  outline: 1px solid #c7c7c7;
+  margin-top: 1rem;
+  border: none;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.plus_icon {
+  font-size: 1rem;
+  margin-left: 3.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+.plus_icon:hover {
+  background-color: #e8eaed;
+}
+.outline p {
+  color: #5b5c5c;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.outline div {
+  color: #595a5a;
+  font-size: 0.9rem;
+
+  margin-left: 2rem;
+}
+.align_items {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* increase font size  */
+.text_size option[value="8"] {
+  font-size: 8px;
+}
+
+.text_size option[value="9"] {
+  font-size: 9px;
+}
+
+.text_size option[value="10"] {
+  font-size: 10px;
+}
+
+.text_size option[value="11"] {
+  font-size: 11px;
+}
+
+.text_size option[value="12"] {
+  font-size: 12px;
+}
+
+.text_size option[value="14"] {
+  font-size: 14px;
+}
+
+.text_size option[value="18"] {
+  font-size: 18px;
+}
+
+.text_size option[value="24"] {
+  font-size: 24px;
+}
+
+.text_size option[value="30"] {
+  font-size: 30px;
+}
+
+.text_size option[value="36"] {
+  font-size: 36px;
+}
+
+.text_size option[value="48"] {
+  font-size: 48px;
+}
+
+.text_size option[value="60"] {
+  font-size: 60px;
+}
+
+.text_size option[value="72"] {
+  font-size: 72px;
+}
+
+.text_size option[value="96"] {
+  font-size: 96px;
+}
+
+/* increase size of textarea section */
